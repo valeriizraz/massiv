@@ -1,8 +1,6 @@
 'use strict'
 
-// const addPrefix = (name) => {
-//   let str = 'Mr ';
-//   for (let i = 0, pre = ; i < name.length; i++) {
-//     str += str + name[i];
-//   }
-// }
+let names= ['Noah', 'Liam', 'Mason', 'Jacob', 'Robot', 'William', 'Ethan', 'Michael', 'Alexander'];
+names = names.map(i => 'Mr ' + i);
+
+console.log(names);
